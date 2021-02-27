@@ -1,3 +1,9 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+# Em baixo está minhas funções/views
+
+def index(request):
+    return HttpResponse("Olá Mundo !")
+
+
